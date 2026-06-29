@@ -68,7 +68,7 @@ function typeLetter(){
 
         index++;
 
-        setTimeout(typeLetter,40);
+        setTimeout(typeLetter,100);
 
     }
 

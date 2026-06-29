@@ -189,7 +189,7 @@ surpriseButton.addEventListener("click",()=>{
         sliderBox.style.background = "rgba(0, 0, 0, 0.4)";
     }
 
-    alert("❤️ I will always choose you cayangggg. ❤️");
+    alert("❤️ You are my forevermore cayangggg. ❤️");
 
     startFireworks();
 

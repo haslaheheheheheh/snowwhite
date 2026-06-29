@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Someone Special ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
+
+    <!-- Music -->
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Opening Screen -->
+    <section id="opening">
+
+        <h1>A Letter Just For You ❤️</h1>
+
+        <div class="envelope" id="envelope">
+
+            <div class="flap"></div>
+
+            <div class="letter">
+
+                <p>Click to Open 💌</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Love Letter -->
+
+    <section id="letterSection" class="hidden">
+
+        <h1>Dear My Love ❤️</h1>
+
+        <p id="typedText"></p>
+
+    </section>
+
+    <!-- Photos -->
+
+    <section id="gallery" class="hidden">
+
+        <h2>Our Memories 📸</h2>
+
+        <div class="photos">
+
+            <img src="photo1.jpg">
+
+            <img src="photo2.jpg">
+
+            <img src="photo3.jpg">
+
+        </div>
+
+    </section>
+
+    <!-- Timer -->
+
+    <section id="timerSection" class="hidden">
+
+        <h2>We've Been Together For</h2>
+
+        <h1 id="timer"></h1>
+
+    </section>
+
+    <!-- Final Message -->
+
+    <section id="ending" class="hidden">
+
+        <h1>❤️</h1>
+
+        <h2>If I had to choose again...</h2>
+
+        <h2>I would still choose you.</h2>
+
+        <h2>Every single time.</h2>
+
+        <button id="surpriseButton">
+
+            One Last Surprise 🎆
+
+        </button>
+
+    </section>
+
+    <!-- Fireworks -->
+
+    <canvas id="fireworks"></canvas>
+    
+    <div class="fixed-volume-control">
+        <label for="volumeSlider">🎵</label>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.05" value="0.5">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

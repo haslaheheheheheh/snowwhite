@@ -25,8 +25,6 @@ const volumeSlider = document.getElementById("volumeSlider"); // Added slider el
 
 const message = `
 
-Dear My Love,
-
 I don't think words can ever fully describe how much you mean to me.
 
 Thank you for making ordinary days feel extraordinary.
@@ -36,14 +34,18 @@ every laugh,
 every memory,
 and every little moment we have shared.
 
-No matter what happens,
+You're not my what if. You're my even if.
+Even if nothing goes as planned.
+Even if we are tired and the words come out wrong.
+Even if the days are long and our patience is short.
+Even if everything goes wrong and it feels like the whole world is falling apart.
 I promise to always appreciate you,
 support you,
 and love you with all my heart.
 
 You truly are my favorite person.
 
-I love you.
+I love you so so much.
 
 ❤️
 
@@ -187,7 +189,7 @@ surpriseButton.addEventListener("click",()=>{
         sliderBox.style.background = "rgba(0, 0, 0, 0.4)";
     }
 
-    alert("❤️ I will always choose you. ❤️");
+    alert("❤️ I will always choose you cayangggg. ❤️");
 
     startFireworks();
 
